@@ -97,13 +97,9 @@ for (i in 1:nx)
 
         }
     }
-xx[nx]
-yy[ny]
-s_m[xx[nx],yy[ny]]
-F[nx + 1,ny + 1]
-F
 
-# trace back but can't run
+
+# trace back 
 
 AlignmentA = ""
 AlignmentB = ""
@@ -142,8 +138,6 @@ while ( Final_a < nx + 1 || Final_b < ny + 1 )
 
 }
 
-AlignmentA
-AlignmentB
 
 
 ######################################
